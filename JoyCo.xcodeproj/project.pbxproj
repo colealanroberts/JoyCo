@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5255C42AF089C8003E8D58 /* JoyCoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255C32AF089C8003E8D58 /* JoyCoApp.swift */; };
+		BB5255C62AF089C8003E8D58 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255C52AF089C8003E8D58 /* HomeView.swift */; };
+		BB5255CB2AF089CA003E8D58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5255CA2AF089CA003E8D58 /* Preview Assets.xcassets */; };
+		BB5255D62AF08B46003E8D58 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255D52AF08B46003E8D58 /* Meal.swift */; };
+		BB5255D82AF08CF1003E8D58 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255D72AF08CF1003E8D58 /* Recipe.swift */; };
+		BB5255DD2AF09584003E8D58 /* Modifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255DC2AF09584003E8D58 /* Modifiable.swift */; };
+		BB5255E72AF0D9E9003E8D58 /* MealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255E62AF0D9E9003E8D58 /* MealCell.swift */; };
+		BB5255ED2AF0DC25003E8D58 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = BB5255EC2AF0DC25003E8D58 /* NukeUI */; };
+		BB5255F02AF0E2C9003E8D58 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255EF2AF0E2C9003E8D58 /* Loadable.swift */; };
+		BB5255F32AF0EB88003E8D58 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255F22AF0EB88003E8D58 /* DetailView.swift */; };
+		BB5255F52AF0FE28003E8D58 /* MealResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255F42AF0FE28003E8D58 /* MealResponse.swift */; };
+		BB5255FB2AF1C41E003E8D58 /* Actionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255FA2AF1C41E003E8D58 /* Actionable.swift */; };
+		BB5255FD2AF1CCE8003E8D58 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5255FC2AF1CCE8003E8D58 /* ErrorView.swift */; };
+		BB5256022AF203E6003E8D58 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5256012AF203E6003E8D58 /* Service.swift */; };
+		BB5256042AF20479003E8D58 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5256032AF20479003E8D58 /* Endpoint.swift */; };
+		BB5256072AF210B6003E8D58 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5256062AF210B6003E8D58 /* Stylesheet.swift */; };
+		BB5256092AF21546003E8D58 /* ThumbnailPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5256082AF21546003E8D58 /* ThumbnailPlaceholderView.swift */; };
+		BB52560B2AF23023003E8D58 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52560A2AF23023003E8D58 /* RecipeView.swift */; };
+		BB52560F2AF23AEB003E8D58 /* Endpoint+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB52560E2AF23AEB003E8D58 /* Endpoint+Defaults.swift */; };
+		BB5256142AF2BE34003E8D58 /* MealProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5256132AF2BE34003E8D58 /* MealProvider.swift */; };
+		BBE65AD62AF2CA12007FFF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE65AD52AF2CA12007FFF3A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB5255C02AF089C8003E8D58 /* JoyCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5255C32AF089C8003E8D58 /* JoyCoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyCoApp.swift; sourceTree = "<group>"; };
+		BB5255C52AF089C8003E8D58 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB5255CA2AF089CA003E8D58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB5255D52AF08B46003E8D58 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BB5255D72AF08CF1003E8D58 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		BB5255DC2AF09584003E8D58 /* Modifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiable.swift; sourceTree = "<group>"; };
+		BB5255E62AF0D9E9003E8D58 /* MealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCell.swift; sourceTree = "<group>"; };
+		BB5255EF2AF0E2C9003E8D58 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		BB5255F22AF0EB88003E8D58 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BB5255F42AF0FE28003E8D58 /* MealResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealResponse.swift; sourceTree = "<group>"; };
+		BB5255FA2AF1C41E003E8D58 /* Actionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actionable.swift; sourceTree = "<group>"; };
+		BB5255FC2AF1CCE8003E8D58 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		BB5256012AF203E6003E8D58 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BB5256032AF20479003E8D58 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		BB5256062AF210B6003E8D58 /* Stylesheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		BB5256082AF21546003E8D58 /* ThumbnailPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailPlaceholderView.swift; sourceTree = "<group>"; };
+		BB52560A2AF23023003E8D58 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		BB52560E2AF23AEB003E8D58 /* Endpoint+Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Endpoint+Defaults.swift"; sourceTree = "<group>"; };
+		BB5256132AF2BE34003E8D58 /* MealProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealProvider.swift; sourceTree = "<group>"; };
+		BBE65AD52AF2CA12007FFF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5255BD2AF089C8003E8D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5255ED2AF0DC25003E8D58 /* NukeUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5255B72AF089C8003E8D58 = {
+			isa = PBXGroup;
+			children = (
+				BB5255C22AF089C8003E8D58 /* JoyCo */,
+				BB5255C12AF089C8003E8D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5255C12AF089C8003E8D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255C02AF089C8003E8D58 /* JoyCo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5255C22AF089C8003E8D58 /* JoyCo */ = {
+			isa = PBXGroup;
+			children = (
+				BB5256122AF2BE2B003E8D58 /* Providers */,
+				BB5256052AF210AE003E8D58 /* Util */,
+				BB5255DE2AF0A5D5003E8D58 /* Views */,
+				BB5255D92AF08E09003E8D58 /* Protocols */,
+				BB5255D42AF08B3D003E8D58 /* Models */,
+				BB5255D12AF089D0003E8D58 /* Services */,
+				BB5255C32AF089C8003E8D58 /* JoyCoApp.swift */,
+				BBE65AD52AF2CA12007FFF3A /* Assets.xcassets */,
+				BB5255C92AF089CA003E8D58 /* Preview Content */,
+			);
+			path = JoyCo;
+			sourceTree = "<group>";
+		};
+		BB5255C92AF089CA003E8D58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255CA2AF089CA003E8D58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB5255D12AF089D0003E8D58 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB5256012AF203E6003E8D58 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB5255D42AF08B3D003E8D58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255EF2AF0E2C9003E8D58 /* Loadable.swift */,
+				BB5255D52AF08B46003E8D58 /* Meal.swift */,
+				BB5255F42AF0FE28003E8D58 /* MealResponse.swift */,
+				BB5255D72AF08CF1003E8D58 /* Recipe.swift */,
+				BB5256032AF20479003E8D58 /* Endpoint.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB5255D92AF08E09003E8D58 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255DC2AF09584003E8D58 /* Modifiable.swift */,
+				BB5255FA2AF1C41E003E8D58 /* Actionable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BB5255DE2AF0A5D5003E8D58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255F62AF1AA22003E8D58 /* General */,
+				BB5255F12AF0EB7D003E8D58 /* Detail */,
+				BB5255E52AF0D9D8003E8D58 /* Home */,
+				BB5255E42AF0D9D3003E8D58 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB5255E42AF0D9D3003E8D58 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255E62AF0D9E9003E8D58 /* MealCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB5255E52AF0D9D8003E8D58 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255C52AF089C8003E8D58 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BB5255F12AF0EB7D003E8D58 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255F22AF0EB88003E8D58 /* DetailView.swift */,
+				BB52560A2AF23023003E8D58 /* RecipeView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BB5255F62AF1AA22003E8D58 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BB5255FC2AF1CCE8003E8D58 /* ErrorView.swift */,
+				BB5256082AF21546003E8D58 /* ThumbnailPlaceholderView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BB5256052AF210AE003E8D58 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BB5256062AF210B6003E8D58 /* Stylesheet.swift */,
+				BB52560E2AF23AEB003E8D58 /* Endpoint+Defaults.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BB5256122AF2BE2B003E8D58 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				BB5256132AF2BE34003E8D58 /* MealProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5255BF2AF089C8003E8D58 /* JoyCo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5255CE2AF089CA003E8D58 /* Build configuration list for PBXNativeTarget "JoyCo" */;
+			buildPhases = (
+				BB5255BC2AF089C8003E8D58 /* Sources */,
+				BB5255BD2AF089C8003E8D58 /* Frameworks */,
+				BB5255BE2AF089C8003E8D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyCo;
+			packageProductDependencies = (
+				BB5255EC2AF0DC25003E8D58 /* NukeUI */,
+			);
+			productName = JoyCo;
+			productReference = BB5255C02AF089C8003E8D58 /* JoyCo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5255B82AF089C8003E8D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB5255BF2AF089C8003E8D58 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BB5255BB2AF089C8003E8D58 /* Build configuration list for PBXProject "JoyCo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5255B72AF089C8003E8D58;
+			packageReferences = (
+				BB5255EB2AF0DC25003E8D58 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = BB5255C12AF089C8003E8D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5255BF2AF089C8003E8D58 /* JoyCo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5255BE2AF089C8003E8D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE65AD62AF2CA12007FFF3A /* Assets.xcassets in Resources */,
+				BB5255CB2AF089CA003E8D58 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5255BC2AF089C8003E8D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5255D62AF08B46003E8D58 /* Meal.swift in Sources */,
+				BB5255F02AF0E2C9003E8D58 /* Loadable.swift in Sources */,
+				BB5256072AF210B6003E8D58 /* Stylesheet.swift in Sources */,
+				BB5255F32AF0EB88003E8D58 /* DetailView.swift in Sources */,
+				BB5256042AF20479003E8D58 /* Endpoint.swift in Sources */,
+				BB5256022AF203E6003E8D58 /* Service.swift in Sources */,
+				BB5255C62AF089C8003E8D58 /* HomeView.swift in Sources */,
+				BB5256142AF2BE34003E8D58 /* MealProvider.swift in Sources */,
+				BB5255E72AF0D9E9003E8D58 /* MealCell.swift in Sources */,
+				BB5255C42AF089C8003E8D58 /* JoyCoApp.swift in Sources */,
+				BB52560F2AF23AEB003E8D58 /* Endpoint+Defaults.swift in Sources */,
+				BB5255DD2AF09584003E8D58 /* Modifiable.swift in Sources */,
+				BB5256092AF21546003E8D58 /* ThumbnailPlaceholderView.swift in Sources */,
+				BB52560B2AF23023003E8D58 /* RecipeView.swift in Sources */,
+				BB5255FB2AF1C41E003E8D58 /* Actionable.swift in Sources */,
+				BB5255D82AF08CF1003E8D58 /* Recipe.swift in Sources */,
+				BB5255FD2AF1CCE8003E8D58 /* ErrorView.swift in Sources */,
+				BB5255F52AF0FE28003E8D58 /* MealResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB5255CC2AF089CA003E8D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5255CD2AF089CA003E8D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5255CF2AF089CA003E8D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoyCo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LWD5S8959;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17degrees.JoyCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5255D02AF089CA003E8D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoyCo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LWD5S8959;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.17degrees.JoyCo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5255BB2AF089C8003E8D58 /* Build configuration list for PBXProject "JoyCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5255CC2AF089CA003E8D58 /* Debug */,
+				BB5255CD2AF089CA003E8D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5255CE2AF089CA003E8D58 /* Build configuration list for PBXNativeTarget "JoyCo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5255CF2AF089CA003E8D58 /* Debug */,
+				BB5255D02AF089CA003E8D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB5255EB2AF0DC25003E8D58 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB5255EC2AF0DC25003E8D58 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB5255EB2AF0DC25003E8D58 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BB5255B82AF089C8003E8D58 /* Project object */;
+}
