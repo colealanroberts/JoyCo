@@ -14,10 +14,10 @@ struct Recipe: Hashable {
     /// The displayable name for a recipe.
     let name: String
     
-    /// The displayble instructions for a recipe.
+    /// The displayable instructions for a recipe.
     let instructions: String
     
-    /// The ingredients that comrpise this recipe
+    /// The ingredients that comprise this recipe
     let ingredients: [Ingredient]
     
     /// The thumbnail url for a recipe.
@@ -52,7 +52,7 @@ extension Recipe {
     }
 }
 
-// MARK: - Recipe+Decodables -
+// MARK: - Recipe+Decodable -
 
 extension Recipe: Decodable {
     private enum CodingKeys: String, CodingKey {
@@ -130,7 +130,7 @@ extension Recipe: Decodable {
             let ingredient = try container.decodeIfPresent(String.self, forKey: CodingKeys(rawValue: "strIngredient\(index)")!)
             let measurement = try container.decodeIfPresent(String.self, forKey: CodingKeys(rawValue: "strMeasure\(index)")!)
             
-            // We'll need both a measure and an ingredient, each containing some content.
+            // We'll need both a measurement and an ingredient, each containing some content.
             guard let ingredient, !ingredient.isEmpty else { continue }
             guard let measurement, !measurement.isEmpty else { continue }
             

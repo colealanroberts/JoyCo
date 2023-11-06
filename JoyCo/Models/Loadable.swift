@@ -26,7 +26,7 @@ enum Loadable<Content> {
         return false
     }
     
-    /// Returns whether loading has failed`.
+    /// Returns whether loading has failed.
     var hasError: Bool {
         if case .error = self {
             return true

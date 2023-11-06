@@ -10,7 +10,7 @@ import Foundation
 // MARK: - Service -
 
 protocol Service {
-    /// Returns a genericized `Model` conforming to `Decodable`.
+    /// Returns a `Model` conforming to `Decodable`.
     /// - Parameter endpoint: The concrete `Endpoint` of which to perform the request.
     /// - Returns: `Model`
     func request<Model: Decodable>(_ endpoint: Endpoint) async throws -> Model
@@ -74,7 +74,7 @@ fileprivate extension Endpoint {
         components.path = path
         components.queryItems = queryItems
         
-        // The decision to utilize a `preconditionFailure(_:)` here is itentional, these URLs are never
+        // The decision to utilize a `preconditionFailure(_:)` here is intentional, these URLs are never
         // constructed from user input. However, one might opt for an assertionFailure instead.
         guard let url = components.url else {
             preconditionFailure("Failed to construct a valid URL, got: \(String(describing: components.url))")
